@@ -7,6 +7,7 @@ User registration with validation
 User login functionality
 Error handling for invalid login credentials
 Responsive design
+MD5 encryption algorithmn for passwords
 
 PHP: Server-side scripting language for dynamic web content.
 MySQL: Database management system to store user data.
@@ -18,3 +19,4 @@ JavaScript: For client-side interactions and form validations (JQuery).
 Prerequisites
 XAMPP/WAMP: A local server environment to run PHP applications.
 phpMyAdmin: Comes with XAMPP/WAMP for managing MySQL database
+
