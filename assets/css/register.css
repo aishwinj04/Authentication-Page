@@ -1,0 +1,198 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+
+
+}
+
+
+#background{
+    background-color: black;
+    background-image: url("../images/background.jpg");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+
+}
+
+#box{
+    background-color: #081424;
+}
+
+
+#loginContainer * {
+    color: white;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    line-height: 1em; 
+    box-sizing: border-box;
+
+}
+
+#loginContainer {
+    width: 80%;
+    margin: 0 auto; /* top bottom 0 margin, left/right have auto */
+    position: relative;
+    max-width: 1024px;
+
+}
+
+::placeholder{
+    color: rgb(175, 172, 172);
+    opacity: 40%;
+}
+
+
+#inputContainer {
+    width: 400px;
+    padding: 45px;
+    float: right;
+    border-left: 0.5px solid rgb(255, 255, 255);
+}
+
+#inputContainer h2 {
+    text-align: center;
+}
+
+#inputContainer input[type="text"]{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+#inputContainer input[type="password"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:10px;
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+#inputContainer input[type="email"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:10px;
+    display: block;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    height: 30px;
+    line-height: 30px;
+    width: 80%;
+}
+
+#inputContainer label{
+    color: rgb(222, 214, 214); /* overrides general color rule */
+    font-size: 17px;
+    display: block; /* new line when error message pops up */
+    margin-top: 15px;
+  
+}
+
+#inputContainer button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:  100px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto; /* centers */
+    height: 50px;
+    width: 80%; /* not full width for appearance choice */
+
+}
+
+#inputContainer button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+
+#inputContainer .hasAccountText span{ 
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hasAccountText{
+    text-align: center;
+}
+
+#inputContainer .hasAccountText span:hover{
+    cursor:pointer;
+    color: rgb(109, 189, 251);
+    font-size: 16px;
+    
+
+}
+
+#registerForm, #loginForm{
+    display: none; /* hide on initial load, js handles this */
+
+}
+
+#loginText{
+    padding: 45px;
+    display: table-cell;
+
+}
+
+#loginText h1{
+    font-family: "Permanent Marker", cursive;
+    color:white;
+    font-size: 55px;
+    font-weight: 300;
+}
+
+#loginText h2{
+    font-family: "Permanent Marker", cursive;
+    margin: 25px 0;
+}
+
+#loginText h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10px;
+    line-height: 1px;
+    text-align: center;
+
+}
+
+#loginText ul{
+    padding: 0;
+}
+
+#loginText li{
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    list-style-type: none;
+    padding: 5px 40px;
+    background: url("../images/icons/check.svg") no-repeat;
+    background-size: 30px;
+
+}
+
+#inputContainer .errorMessage{
+    font-family: "Roboto Mono", monospace;
+    color: rgb(255, 50, 50);
+    
+
+}

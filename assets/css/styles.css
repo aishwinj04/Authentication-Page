@@ -1,0 +1,40 @@
+ .poster {
+     width: 50%;
+     margin-left: 25%;
+     margin-top: 100px;
+
+
+ }
+
+ body {
+     background-color: #0C2029;
+
+ }
+
+ h1 {
+     color: white;
+     text-align: center;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-transform: uppercase;
+     text-shadow: 10px 10px 8px  black;
+ }
+
+
+
+
+
+
+
+.padlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.padlock img{
+    width: 300px;
+    padding: 100px;
+
+
+}
