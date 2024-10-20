@@ -64,7 +64,7 @@
             if(strlen($username) < 8 || strlen($username) > 25){
                 array_push($this->errorArray, Constants::$usernameLength);
                 return;
-
+            }
             // check username already exsists in database
             $checkUsernameQuery = mysqli_query($this->con, "SELECT username FROM users WHERE username = '$username'");
             if(mysqli_num_rows($checkUsernameQuery) != 0){
@@ -72,9 +72,9 @@
                 return;
             }
 
-            }
-            
         }
+            
+        
 
         private function validateFirstName($firstName){
 
