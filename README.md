@@ -7,7 +7,7 @@ User registration with validation
 User login functionality
 Error handling for invalid login credentials
 Responsive design
-MD5 encryption algorithmn for passwords
+MD5 encryption algorithm for passwords
 
 PHP: Server-side scripting language for dynamic web content.
 MySQL: Database management system to store user data.
